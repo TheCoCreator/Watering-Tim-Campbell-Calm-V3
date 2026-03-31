@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Favicon (Anchor SVG in Brand Navy) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%230A2458%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><circle cx=%2212%22 cy=%225%22 r=%223%22/><line x1=%2212%22 y1=%2222%22 x2=%2212%22 y2=%228%22/><path d=%22M5 12H2a10 10 0 0 0 20 0h-3%22/></svg>" type="image/svg+xml">
+
+    <!-- Primary Meta Tags -->
+    <title>911 Reset Wednesdays | The Calm Anchor with Tim Campbell</title>
+    <meta name="title" content="911 Reset Wednesdays | The Calm Anchor with Tim Campbell" />
+    <meta name="description" content="A quiet mid-week reset for frontline workers. Join Tim Campbell for weekly guided nervous system regulation." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://timcampbellcalm.com/" />
+    <meta property="og:title" content="911 Reset Wednesdays | The Calm Anchor" />
+    <meta property="og:description" content="A body-first release that doesn’t require replaying calls. Shift from survival mode into rest." />
+    <meta property="og:image" content="https://timcampbellcalm.com/social-preview.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://timcampbellcalm.com/" />
+    <meta property="twitter:title" content="911 Reset Wednesdays | The Calm Anchor" />
+    <meta property="twitter:description" content="A body-first release that doesn’t require replaying calls. Shift from survival mode into rest." />
+    <meta property="twitter:image" content="https://timcampbellcalm.com/social-preview.jpg" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://thecalmanchor.kit.com/commerce.js" async defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              script: ['Caveat', 'cursive'],
+            },
+            colors: {
+              amy: {
+                navy: '#0A2458',
+                gold: '#F0C27B',
+                orange: '#E85A3C',
+                lightBlue: '#F4F8FA',
+                text: '#334155',
+                cream: '#FFF9F0',
+              },
+              slate: {
+                850: '#1e293b',
+              },
+              teal: {
+                600: '#0d9488',
+                700: '#0f766e',
+                800: '#115e59',
+                900: '#134e4a',
+              }
+            },
+            boxShadow: {
+              'amy': '0 20px 40px -15px rgba(10, 36, 88, 0.15)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #ffffff;
+        color: #334155;
+        scroll-behavior: smooth;
+      }
+      /* Smooth accordion transition */
+      .accordion-content {
+        transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+      }
+      .accordion-content.open {
+        max-height: 500px;
+        opacity: 1;
+      }
+      /* Fade in animations */
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in {
+        animation: fadeIn 0.5s ease-out forwards;
+      }
+
+      /* Calm Breathing Pulse (4-7-8 Cycle) - 19 seconds total */
+      @keyframes calm-breathing {
+        0%, 100% { transform: scale(1); opacity: 0.6; box-shadow: 0 0 0 0 rgba(232, 90, 60, 0); }
+        22% { transform: scale(1.6); opacity: 1; box-shadow: 0 0 15px 4px rgba(232, 90, 60, 0.3); } /* 4s in */
+        61% { transform: scale(1.6); opacity: 1; box-shadow: 0 0 15px 4px rgba(232, 90, 60, 0.3); } /* 7s hold */
+        100% { transform: scale(1); opacity: 0.6; box-shadow: 0 0 0 0 rgba(232, 90, 60, 0); } /* 8s out */
+      }
+      .animate-calm-pulse {
+        animation: calm-breathing 19s ease-in-out infinite;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+    "react/jsx-dev-runtime": "https://esm.sh/react@18.2.0/jsx-dev-runtime",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.22.3?deps=react@18.2.0,react-dom@18.2.0",
+    "react-router": "https://esm.sh/react-router@6.22.3?deps=react@18.2.0",
+    "@remix-run/router": "https://esm.sh/@remix-run/router@1.15.3",
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0?deps=react@18.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
