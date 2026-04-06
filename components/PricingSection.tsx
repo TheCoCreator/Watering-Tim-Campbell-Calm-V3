@@ -52,7 +52,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onStartCheckout 
                 <div className="absolute top-0 right-0 w-64 h-64 bg-amy-orange/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2"></div>
                 
                 <div className="relative z-10 mb-12">
-                    <span className="text-8xl font-black text-white tracking-tighter leading-none">$37</span>
+                    <span className="text-8xl font-black text-white tracking-tighter leading-none">$9</span>
                     <span className="text-2xl text-blue-200/50 font-light block mt-2">per month</span>
                 </div>
                 

@@ -67,7 +67,7 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
                         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">
                             <div>
                                 <p className="text-amy-navy font-black uppercase tracking-[0.2em] text-[10px] mb-1">Membership Plan</p>
-                                <p className="text-4xl font-black text-amy-navy">$37<span className="text-lg font-normal text-slate-400">/mo</span></p>
+                                <p className="text-4xl font-black text-amy-navy">$9<span className="text-lg font-normal text-slate-400">/mo</span></p>
                             </div>
                             <div className="bg-green-50 text-green-700 px-4 py-2 rounded-full text-xs font-bold uppercase tracking-widest border border-green-100">
                                 Cancel anytime

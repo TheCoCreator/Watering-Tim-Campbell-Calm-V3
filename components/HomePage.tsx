@@ -4,12 +4,10 @@ import { Anchor } from 'lucide-react';
 
 interface HomePageProps {
   onJoinReset: () => void;
-  onGoToReset?: () => void;
 }
 
 export const HomePage: React.FC<HomePageProps> = ({ 
     onJoinReset, 
-    onGoToReset,
 }) => {
   const [scrolled, setScrolled] = useState(false);
 

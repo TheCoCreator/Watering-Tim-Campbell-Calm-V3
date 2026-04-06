@@ -50,7 +50,7 @@ export const TalkItOutPage: React.FC<TalkItOutPageProps> = ({ onBackToHome }) =>
           </div>
         </div>
         <a href="#book" className="text-xs tracking-[0.15em] uppercase text-amy-cream/60 border-b border-amy-gold/30 pb-0.5 hover:text-amy-cream hover:border-amy-gold transition-all">
-          Book a free call
+          Email to book
         </a>
       </nav>
 
@@ -74,7 +74,7 @@ export const TalkItOutPage: React.FC<TalkItOutPageProps> = ({ onBackToHome }) =>
           </p>
           <div className="hero-fade-in opacity-0 translate-y-6 transition-all duration-700">
             <a href="#book" className="inline-block font-sans text-[12px] font-normal tracking-[0.2em] uppercase py-[18px] px-[44px] border border-amy-gold text-amy-cream hover:bg-amy-gold hover:text-amy-navy transition-all duration-400 relative overflow-hidden group">
-              <span className="relative z-10">Book a free 15-min call</span>
+              <span className="relative z-10">Email me to book</span>
               <div className="absolute inset-0 bg-amy-gold scale-x-0 origin-left transition-transform duration-400 ease-out group-hover:scale-x-100 z-0"></div>
             </a>
           </div>
@@ -282,8 +282,8 @@ export const TalkItOutPage: React.FC<TalkItOutPageProps> = ({ onBackToHome }) =>
             15 minutes. No prep required. We talk about what's happening,
             and you'll know by the end whether this feels right.
           </p>
-          <a href="https://calendly.com/timcampbellcalm" target="_blank" rel="noopener noreferrer" className="inline-block font-sans text-[12px] font-normal tracking-[0.2em] uppercase py-[18px] px-[44px] border border-amy-gold text-amy-cream hover:bg-amy-gold hover:text-amy-navy transition-all duration-400 relative overflow-hidden group fade-in-section opacity-0 translate-y-6 transition-all duration-700 delay-300">
-            <span className="relative z-10">Book a free 15-min call</span>
+          <a href="mailto:hello@timcampbellcalm.com?subject=Booking%20a%20Talk%20It%20Out%20Session" className="inline-block font-sans text-[12px] font-normal tracking-[0.2em] uppercase py-[18px] px-[44px] border border-amy-gold text-amy-cream hover:bg-amy-gold hover:text-amy-navy transition-all duration-400 relative overflow-hidden group fade-in-section opacity-0 translate-y-6 transition-all duration-700 delay-300">
+            <span className="relative z-10">Email me to book</span>
             <div className="absolute inset-0 bg-amy-gold scale-x-0 origin-left transition-transform duration-400 ease-out group-hover:scale-x-100 z-0"></div>
           </a>
           <p className="mt-6 text-[13px] text-amy-gold/60 tracking-[0.05em] fade-in-section opacity-0 translate-y-6 transition-all duration-700 delay-400">

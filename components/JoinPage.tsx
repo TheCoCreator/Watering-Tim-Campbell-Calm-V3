@@ -96,7 +96,7 @@ export const JoinPage: React.FC = () => {
             {/* PRICE + EXPECTATION */}
             <div className="relative z-10 mb-12 space-y-4 w-full">
               <div>
-                <span className="text-7xl font-black text-white tracking-tighter leading-none">$37</span>
+                <span className="text-7xl font-black text-white tracking-tighter leading-none">$9</span>
                 <span className="text-xl text-blue-200/50 font-light block mt-2">/ month</span>
               </div>
               <p className="text-blue-200/40 text-sm font-black uppercase tracking-[0.2em] pt-2">Cancel anytime.</p>

@@ -13,13 +13,11 @@ import { Anchor } from 'lucide-react';
 
 interface LandingPageProps {
   onStartCheckout: () => void;
-  onGoToReset?: () => void;
   onBackToHome: () => void;
 }
 
 export const LandingPage: React.FC<LandingPageProps> = ({ 
   onStartCheckout, 
-  onGoToReset,
   onBackToHome,
 }) => {
   const [scrolled, setScrolled] = useState(false);
