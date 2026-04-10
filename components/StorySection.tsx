@@ -21,7 +21,7 @@ export const StorySection: React.FC<StorySectionProps> = ({ onStartCheckout }) =
                 <img 
                     src="portrait.png" 
                     alt="Tim Campbell"
-                    className="w-full h-full object-contain object-bottom"
+                    className="w-full h-full object-cover object-center"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       // Prevent infinite loop if fallback fails

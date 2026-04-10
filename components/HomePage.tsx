@@ -106,7 +106,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               <img 
                 src="portrait.png" 
                 alt="Tim Campbell" 
-                className="w-full h-full object-contain object-bottom"
+                className="w-full h-full object-cover object-center"
                 onError={(e) => {
                   (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&q=80&w=800";
                 }}

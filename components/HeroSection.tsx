@@ -87,7 +87,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onStartCheckout }) => 
                     <img 
                         src="portrait.png" 
                         alt="Tim Campbell - The Calm Anchor"
-                        className="w-full h-full object-contain object-bottom transition-all duration-1000"
+                        className="w-full h-full object-cover object-center transition-all duration-1000"
                         onError={(e) => {
                           const target = e.target as HTMLImageElement;
                           // Prevent infinite loop if fallback fails
